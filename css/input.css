@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: "Gliker";
+    src: url("../fonts/Studio\ Sun\ -\ Gliker\ Regular.otf") format('woff2');
+  }
+
+@font-face {
+    font-family: "Interphases";
+    src: url("../fonts/TypeType\ -\ TT\ Interphases\ Regular.ttf") format('woff2');
+  }
+
+  
+
+
+@layer components {
+  .btn-primary{
+    @apply bg-[#204F4F] rounded text-white py-2 px-7 text-xs font-semibold h-10 flex items-center
+  }
+
+  .btn-secondary{
+    @apply bg-white border border-[#204F4F] rounded text-[#204F4F] py-2 px-7 text-xs font-semibold h-10 flex gap-2 items-center
+  }
+
+    .hero{
+      @apply bg-[url(https://asdagroceries.scene7.com/is/image/asdagroceries/220425_Landing_DroppedLocked_BGMain1?scl=1)] bg-[#000000bf] bg-cover bg-no-repeat bg-blend-overlay
+    }
+}
+

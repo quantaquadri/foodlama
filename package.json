@@ -1,0 +1,16 @@
+{
+  "name": "FoodLama",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tailwindcss -i ./css/input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./css/input.css -o ./css/main.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
+}
